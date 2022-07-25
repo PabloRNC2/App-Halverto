@@ -1,5 +1,6 @@
-require('update-electron-app')()
 const { app, BrowserWindow, ipcMain, Menu, shell } = require("electron");
+const { autoUpdater } = require("electron-updater")
+autoUpdater.checkForUpdatesAndNotify()
 const { Generator } = require("randomly-id-generator");
 const path = require("path");
 const Player = require("./models/Player");
