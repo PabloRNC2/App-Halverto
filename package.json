@@ -1,6 +1,6 @@
 {
   "name": "snipescontroller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An aplication",
   "main": "src/index.js",
   "author": "",
@@ -9,12 +9,16 @@
     "electron": "^19.0.8",
     "electron-builder": "^23.1.0"
   },
+  "repository": {
+    "url": "https://github.com/PabloRNC2/App-Halverto"
+  },
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "moment": "^2.29.4",
     "mongoose": "^6.4.4",
-    "randomly-id-generator": "^1.0.4"
+    "randomly-id-generator": "^1.0.4",
+    "update-electron-app": "^2.0.1"
   },
   "scripts": {
     "pack": "electron-builder --dir",
